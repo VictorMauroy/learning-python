@@ -10,3 +10,5 @@ def Revert_List(listToReverse:list) -> list:
     return revertedList
 
 print(Revert_List(awesomeList))
+
+# Il est aussi possible d'utiliser la fonction list.reverse() mais ce n'était pas le but de l'exercice.
