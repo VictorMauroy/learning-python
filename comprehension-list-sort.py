@@ -9,3 +9,9 @@ randomListOfNumbers = [random.randint(1,100) for _ in range(1000)]
 
 smallestNumbersList = [x for x in randomListOfNumbers if x < 10]
 print(smallestNumbersList)
+
+anotherSmallestList = []
+for elt in randomListOfNumbers :
+    if elt < 10 :
+        anotherSmallestList.append(elt)
+print(anotherSmallestList)
