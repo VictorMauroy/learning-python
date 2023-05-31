@@ -21,5 +21,9 @@ def Check_In_Dictionary(searchedCharacter:str):
             return
     print("Nous n'avons pas trouvé ce personnage.")
 
+# Correction 
+# if dico.get(input_user) != None
+#   print(dico.get(input_user))
+
 characterToSearch = str(input("Entrez le nom d'un personnage pour trouver son élément : "))
 Check_In_Dictionary(characterToSearch)

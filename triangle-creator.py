@@ -11,6 +11,9 @@ def Make_Triangle(triangleSize:int) -> None :
             message += "#"
         print(message)
 
+# Correction
+
+
 Make_Triangle(
     int(
         input("Entrez la taille du triangle désiré : ")
